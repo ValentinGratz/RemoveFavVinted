@@ -11,8 +11,8 @@ Version 1.1.0
 
 
 ## Changelog
- 1.1.0 : Version de base (première version) 
-         Amélioration mineure, ajout du code et de l'icon
+- 1.1.0 : Version de base (première version) 
+Amélioration mineure, ajout du code et de l'icon
 
 ## Prompt chatgpt utilisé
 le manifest.json : 
