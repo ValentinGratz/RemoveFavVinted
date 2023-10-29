@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "RemoveFavVinted",
-  "version": "1.0",
+  "version": "1.1.0",
   "description": "Supprime automatiquement les favoris des articles marqués comme 'vendu' sur Vinted.",
   "permissions": [
     "activeTab"
