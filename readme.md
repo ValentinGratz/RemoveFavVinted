@@ -13,6 +13,10 @@ Version 1.0
 ## Changelog
  1.0 : Version de base (première version) 
 
+## A faire
+- inclure le code a : const removeFavoriteButton = /* Code pour trouver le bouton associé au cœur SVG */;
+
+
 ## Prompt chatgpt utilisé
 le manifest.json : 
 ```
