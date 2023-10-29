@@ -4,14 +4,15 @@
 Extension chrome qui permet de supprimer automatiquement les favoris des articles marqués comme 'vendu' sur Vinted.
 
 ## Version actuelle
-Version 1.0
+Version 1.1.0
 
 :warning:
  **Extension chrome non encore testée**
 
 
 ## Changelog
- 1.0 : Version de base (première version) 
+ 1.1.0 : Version de base (première version) 
+         Amélioration mineure, ajout du code et de l'icon
 
 ## Prompt chatgpt utilisé
 le manifest.json : 
