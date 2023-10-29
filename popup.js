@@ -10,9 +10,32 @@ function removeFavorites() {
 
     heartIcons.forEach((heartIcon) => {
         // Trouvez le bouton de suppression des favoris (il peut être un parent ou un élément voisin du cœur SVG)
-        const removeFavoriteButton = /* Code pour trouver le bouton associé au cœur SVG */;
+
+        // Insérez le code pour trouver le bouton ici
+        const removeFavoriteButton = findRemoveButton(heartIcon);
+
         if (removeFavoriteButton) {
             removeFavoriteButton.click(); // Simulez un clic pour supprimer le favori
         }
     });
+
+    // Fonction pour trouver le bouton de suppression des favoris en remontant dans la hiérarchie des éléments
+    function findRemoveButton(heartIcon) {
+        let element = heartIcon;
+        while (element) {
+            // Insérez ici le code pour trouver le bouton de suppression des favoris
+            // Par exemple, recherchez un parent contenant le bouton ou cherchez parmi les éléments voisins
+            // Si vous trouvez le bouton, retournez-le
+            // Si vous atteignez le haut de la hiérarchie sans trouver le bouton, retournez null
+
+            // Exemple générique : recherchez un parent avec la classe "remove-button-container"
+            if (element.classList.contains("remove-button-container")) {
+                return element.querySelector(".remove-button");
+            }
+
+            element = element.parentElement;
+        }
+        return null;
+    }
 }
+
